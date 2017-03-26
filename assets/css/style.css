@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Muli);
+
+* {
+  font-family: Muli;
+}
+
+.cabecera > p{
+	display: inline;
+}
+
+span.title{
+	font-size: 20pt;
+}
+
+#lateral{ 
+   width: 300px;
+   float: right; 
+   line-height: 2.2;
+}
+
+#main-nav {
+  border: none;
+}
+
+#main-nav > li > a {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+#main-nav > li > a {
+  border: 1px solid #444;
+  border-radius: 8px 8px 0 0;
+  color: #666;
+  text-transform: uppercase;
+}
+
+#main-nav > li.active > a {
+  background-color: #444;
+  color: #fff;
+}
+
+#tab-content-container {
+  border: 1px solid #000;
+}
+
+#tab-content-container .navbar {
+  background-color: #444;
+  border: none;
+  border-radius: 0;
+}
+
+#tab-content-container .navbar-brand {
+  color: #fff;
+}
+
+#tab-content-container .navbar-header{
+  float: none;
+}
+
+#agent-type-selector {
+  margin-top: 12px;
+}
+
+#agent-type-selector > li > a {
+  border-radius: 18px;
+  padding: 2px 5px;
+  border-color: #444;
+  background-color: #999;
+  color: #111;
+  min-width: 70px;
+  text-align: center;
+  margin-left: 8px;
+}
+
+#agent-type-selector > li.active > a {
+  background-color: #ddd;
+}
+
+/* The max width is dependant on the container (more info below) */
+
+.popover {
+  max-width: 100%;
+  /* Max Width of the popover (depending on the container!) */
+}
