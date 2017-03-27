@@ -1,7 +1,7 @@
 function showPopOver() {
     return '<p>(separate multiple resources name with commas)</p>' +
            '<input type="text" class="form-control"/>' + 
-           '<button class="btn btn-primary" type"submit">Add resources</button>' + " " +
+           '<button id="js-add-button" class="btn btn-primary" type"submit">Add resources</button>' + " " +
            '<button class="btn btn-danger" type"submit">Close</button>';
   }
 
@@ -17,3 +17,5 @@ function showPopOver() {
       }
     })
   });
+
+  

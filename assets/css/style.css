@@ -105,9 +105,6 @@ span.align_{
   background-color: #ddd;
 }
 
-/* The max width is dependant on the container (more info below) */
-
 .popover {
   max-width: 100%;
-  /* Max Width of the popover (depending on the container!) */
 }
