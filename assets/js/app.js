@@ -5,8 +5,9 @@ var resources = new Bloodhound({
 });
 
   function showPopOver() {
-    return '<input type="text" class="form-control" value="Ubuntu,Firefox3,CoreDuo" data-role="tagsinput" />'
-           '<button type"submit">Add resources</button>';
+    return '<input type="text" class="form-control"/>'
+           '<button class="btn btn-default" type"submit">Add resources</button>'
+           '<button class="btn btn-default" type"submit">Close</button>';
   }
 
   $(function() {

@@ -4,12 +4,28 @@
   font-family: Muli;
 }
 
+strong{
+  color: black;
+}
+
 .cabecera > p{
 	display: inline;
 }
 
+.align_all{
+  margin-left: 100px;
+}
+
 span.title{
 	font-size: 20pt;
+}
+
+span.align{
+  margin-left: 40px;
+}
+
+span.align_{
+  margin-left: 70px;
 }
 
 #lateral{ 
