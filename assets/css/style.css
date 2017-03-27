@@ -6,10 +6,23 @@
 
 strong{
   color: black;
+  font-size: 16px;
+}
+
+ins{
+  color: black;
+  font-size: 14px;
+}
+
+.media-heading > span{
+  color: black;
+  margin-left: 20px;
+  font-size: 16px;
 }
 
 .cabecera > p{
 	display: inline;
+  color: black;
 }
 
 .align_all{
@@ -21,11 +34,11 @@ span.title{
 }
 
 span.align{
-  margin-left: 40px;
+  margin-left: 70px;
 }
 
 span.align_{
-  margin-left: 70px;
+  margin-left: 100px;
 }
 
 #lateral{ 
